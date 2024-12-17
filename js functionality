@@ -1,0 +1,7 @@
+JavaScript Functionality:
+
+The JavaScript code initializes the canvas and its context.
+A Line class is created to represent each line in the animation. Each line has random starting and ending points, a random color with varying opacity, and a random speed.
+The update method moves the line slightly in random directions, keeping it within the canvas bounds.
+The draw method draws the line on the canvas.
+The animate function clears the canvas and redraws all lines in their updated positions, creating the animation effect.
